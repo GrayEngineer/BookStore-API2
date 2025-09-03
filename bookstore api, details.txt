@@ -1,0 +1,36 @@
+
+Create fastapi backend for bookstore management system.
+
+Task:
+Model of books(id, title, auther, price, published date, created at, updates at)
+
+1. Core CRUD
+CRUD endpoints  
+○ POST /books → Create a book--done
+○ GET /books/{id} → Get a single book--done
+○ PUT /books/{id} → Update a book--done
+○ DELETE /books/{id} → Delete a book--done
+○ GET /books → List books with pagination and filtering by author/title--done
+ 
+2. Search & Pagination
+	Search by title or author.--done
+	Add pagination(limit) --doen
+
+3. Authentication
+	authentication so only authentic person can upload etc
+	use jwt or other 
+	1 user should be hardcoded
+
+4. File Upload
+
+
+5. Database
+
+
+6. Error Handling
+
+
+7. Documentation
+
+
+8. Deliverables

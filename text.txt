@@ -1,0 +1,9 @@
+jwt   header.payload.signature  aaaaaaaaa.bbbbbbbbb.ccccccc .Each part is Base64URL encoded
+
+
+Header:	   Contains metadata like the signing algorithm and type of token.(e.g., HS256, RS256).
+
+Payload:   Has actual data, Contains the claims (user info, permissions, etc.).
+
+Signature: Created by using algorithum in header to Ensures the integrity and authenticity of the token,Prevents tampering, 
+A secret key is generated to unhide data
