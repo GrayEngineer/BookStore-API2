@@ -1,0 +1,17 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore build directory
+dist/
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS files
+.DS_Store
+
+# Ignore SQLite or other DB file
+database.db
