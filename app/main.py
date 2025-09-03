@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from .database import engine
 from .routers import auth, bookstore
-import .models
+from . import models
 
 
 
