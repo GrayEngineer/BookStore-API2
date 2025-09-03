@@ -5,7 +5,7 @@ sys.path.append("..")
 from fastapi import FastAPI, Depends, HTTPException, APIRouter
 from pydantic import BaseModel
 from typing import Optional
-import models as models
+from .import models
 from passlib.context import CryptContext # type: ignore
 from sqlalchemy.orm import Session
 from database import SessionLocal, engine
