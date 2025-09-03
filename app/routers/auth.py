@@ -8,7 +8,7 @@ from typing import Optional
 from .. import models
 from passlib.context import CryptContext # type: ignore
 from sqlalchemy.orm import Session
-from database import SessionLocal, engine
+from app.database import SessionLocal, engine
 from fastapi.security import OAuth2PasswordRequestForm, OAuth2PasswordBearer
 from datetime import datetime, timedelta
 from jose import jwt, JWTError # type: ignore
