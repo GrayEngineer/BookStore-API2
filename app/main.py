@@ -1,9 +1,8 @@
 #this is the main file, contain api/endpoints that we uses.
 from fastapi import FastAPI
-from database import engine
-from routers import auth, bookstore
-import models as models
-
+from .database import engine
+from .routers import auth, bookstore
+import .models
 
 
 
